@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "timely-quiz-client-side-solution",
+    "id": "b4c211ba-6dae-419d-b737-311734042558",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "timely-quiz description"
+      },
+      "longDescription": {
+        "default": "timely-quiz description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "timely-quiz Feature",
+        "description": "The feature that activates elements of the timely-quiz solution.",
+        "id": "12e48eaa-3a11-4652-a826-f6a3d139bca1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/timely-quiz.sppkg"
+  }
+}
