@@ -95,6 +95,7 @@ span label{
     transition: transform 0.3s;
     font-weight: 600;
     color: rgb(22, 22, 22);
+    margin-top: -20px;
 }
 
 span label:hover{
@@ -114,11 +115,12 @@ input[type="text"] {
     font-size: 14px;
     font-weight: 600;
     color: rgb(22, 22, 22);
+    padding: 0px 15px;
 }
 
 input[type="radio"], input[type="checkbox"] {
     position: relative;
-    display: none;
+    visibility:hidden;
 }
 
 input[type=radio]:checked ~ .option {

@@ -284,6 +284,7 @@ export default class TimelyQuiz extends React.Component<ITimelyQuizProps, IQuizU
       isDarkTheme,
       siteUrl,
       spHttpClient,
+      httpClient,
       listName
     } = this.props;
 
@@ -292,7 +293,7 @@ export default class TimelyQuiz extends React.Component<ITimelyQuizProps, IQuizU
       bodyElement = this.WelcomeText(escape(description), siteUrl, listName, spHttpClient);
     }
     else if(this.state.InQuestions === true && this.state.Finished === false) {
-      bodyElement = <Questions />
+      bodyElement = <Questions httpClient={httpClient} />
     }
     else if(this.state.Finished === true) {
       bodyElement = <Finished />

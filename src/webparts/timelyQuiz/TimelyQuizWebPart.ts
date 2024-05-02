@@ -27,7 +27,8 @@ export default class TimelyQuizWebPart extends BaseClientSideWebPart<ITimelyQuiz
         description: this.properties.description,
         isDarkTheme: this._isDarkTheme,
         listName: "QuizUser", 
-        spHttpClient: this.context.spHttpClient,   
+        spHttpClient: this.context.spHttpClient,
+        httpClient: this.context.httpClient,
         siteUrl: "https://06ncf.sharepoint.com"  
       }
     );
